@@ -1,0 +1,70 @@
+### 1. **How do you assess the statistical significance of an insight?**
+
+You assess statistical significance using **hypothesis testing**:
+
+* Form a null hypothesis (no effect) and an alternative hypothesis.
+* Compute a **p-value**, which indicates the probability of observing the result if the null hypothesis is true.
+* Compare the p-value to a significance level (commonly 0.05).
+  If **p-value < 0.05**, the result is considered **statistically significant** — you reject the null hypothesis.
+
+---
+
+### 2. **What is the Central Limit Theorem (CLT)? Explain it. Why is it important?**
+
+The **Central Limit Theorem** states:
+
+> Regardless of the population distribution, the sampling distribution of the sample mean approaches a normal distribution as the sample size increases (typically $n \geq 30$).
+
+**Why it's important:**
+
+* It allows you to make **inferences** about population parameters using sample data.
+* It underpins many statistical methods, including confidence intervals and hypothesis testing.
+
+---
+
+### 3. **What is statistical power?**
+
+Statistical power is the **probability of correctly rejecting a false null hypothesis** (i.e., avoiding a Type II error).
+
+* High power = high sensitivity to detect true effects.
+* Power increases with larger sample size, effect size, and lower variability.
+
+---
+
+### 4. **How do you control for biases?**
+
+To control biases:
+
+* Use **randomization** to assign groups.
+* Apply **blinding** (single/double-blind studies).
+* Use **control groups** to isolate effects.
+* Apply **standardized procedures** for data collection.
+* Conduct **statistical adjustments** (e.g., regression controls or stratification) to account for known confounders.
+
+---
+
+### 5. **What are confounding variables?**
+
+Confounding variables are **external variables** that affect both the **independent** and **dependent** variables, giving a false impression of a causal relationship.
+
+**Example:** If you observe a link between exercise and heart health, **diet** may be a confounder affecting both.
+
+---
+
+### 6. **What is A/B testing?**
+
+A/B testing is a statistical method used to compare two versions (A and B) of a variable (e.g., a web page) to determine which performs better.
+
+* Randomly assign users to groups A and B.
+* Measure a key metric (e.g., conversion rate).
+* Use hypothesis testing to determine if the observed difference is statistically significant.
+
+---
+
+### 7. **What are confidence intervals?**
+
+A **confidence interval** gives a range of values within which the true population parameter is likely to lie, with a specified level of confidence (e.g., 95%).
+
+**Example:** A 95% CI of \[4.5, 5.5] means you are 95% confident the true mean is between 4.5 and 5.5.
+
+---
